@@ -1,0 +1,86 @@
+h1{
+  font-family: 'Times New Roman', Times, serif;  
+}
+
+fieldset{
+    width:60%;
+    height: 150px;
+
+    position: absolute;
+    background-color: rgb(197, 233, 251);
+
+    left: 18%;
+    top: 130px;
+
+    border-style: solid;
+    border-width: 2px;
+
+    border-color: rgb(108, 89, 249);
+    border-radius: 10px;
+
+    
+}
+
+#form{
+
+    position: absolute;
+    left: 15%;
+    top: 40px;
+
+}
+
+legend{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrong{
+    width: 50%;
+    height:100px;
+
+    background-color: rgb(241, 181, 159);
+    position: absolute;
+
+    left: 20%;
+    top: 350px;
+
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+
+
+.correct{
+    width: 50%;
+    height:100px;
+
+    background-color: rgb(196, 241, 159);
+    position: absolute;
+
+    left: 20%;
+    top: 350px;
+
+    border-radius: 10px;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/** The width in CSS are calculated from their parent element
+    In assignment3, we can setting the elements' width that easy is becase of all elements
+    are siblings relationship instead of parent-son relationship
+*/
+.text{
+    width:80%;
+    position:absolute;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    left:10%;
+    top:20px;
+}
